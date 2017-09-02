@@ -47,7 +47,6 @@ public class OpenFile extends JFrame{
         object.gridy = 1;
         container.add(openFile, object);
         
-        
         openFolder = new JButton("Open Folder");
         openFolderHandler = new OpenFolderHandler();
         openFolder.addActionListener(openFolderHandler);
@@ -83,7 +82,6 @@ public class OpenFile extends JFrame{
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
-            
         }
         
     }
