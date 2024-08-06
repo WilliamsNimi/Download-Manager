@@ -6,7 +6,7 @@ import java.util.*;
 
 //This class downloads a file from a URL
 class Download extends Observable implements Runnable {
-    //Max. size of download buffer
+    //Max. size of download buffers
     private static final int MAX_BUFFER_SIZE = 1024;
     public String downloadPath = null;
     public File fileDownloading = null;
